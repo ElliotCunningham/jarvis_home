@@ -2,6 +2,9 @@
   "name": "jarvis_home",
   "version": "1.0.0",
   "description": "node js tools for control home",
+  "scripts": {
+    "wpds": "node_modules/.bin/webpack-dev-server --inline --port 8080 -w --progress --colors --config compilers/webpack-dev-server-config.js"
+  },
   "dependencies": {
     "axios": "^0.17.1",
     "babel-core": "^6.26.0",
